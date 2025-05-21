@@ -21,4 +21,8 @@ public class Reserva {
     public String getTipoHabitacion() {
         return habitacion.getTipo();
     }
+
+    public Habitacion getHabitacion() {
+        return habitacion;
+    }
 }
